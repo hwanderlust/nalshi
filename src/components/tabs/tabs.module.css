@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 0 1rem 0;
+}
+
+.nav > * {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+}
+
+.nav :is(button):first-of-type {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.nav :is(button):nth-of-type(2) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.active {
+  background-color: aquamarine;
+  font-weight: 600;
+}

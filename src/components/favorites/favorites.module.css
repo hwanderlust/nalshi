@@ -1,0 +1,4 @@
+.favorites {
+  display: grid;
+  place-items: center;
+}

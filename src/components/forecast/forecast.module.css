@@ -1,0 +1,57 @@
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.saveBtn {
+  margin: 1rem 0 5rem 0;
+}
+
+.today {
+  display: grid;
+  place-content: center;
+}
+
+.today h2 {
+  font-size: 1.2rem;
+}
+
+.now {
+  font-size: 2rem;
+}
+
+.highLow {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: 
+  "header header"
+  "label temp";
+  margin: 2rem 0;
+}
+
+.highLow h2 {
+  grid-area: header;
+}
+
+.highLow span {
+  font-weight: 500;
+}
+
+.tableItem {
+  display: grid;
+  place-items: center;
+  margin: 0.5rem 0;
+}
+
+.hourlyTableItem {
+  grid-template-columns: 1fr 1fr 3fr 3fr;
+}
+
+.dayTableItem {
+  grid-template-columns: 1fr 0.5fr 2fr 2fr;
+}
+
+.tableItemDetails {
+  display: grid;
+  place-items: center;
+}

@@ -1,0 +1,16 @@
+.form {
+  display: grid;
+  place-content: center;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "label label"
+    "input button";
+}
+.label {
+  grid-area: label;
+}
+.input {}
+.button {}
+.map {
+  display: hidden;
+}
